@@ -5,5 +5,5 @@ seq1:
    - "80/http"
   labels:
    - "constraint:node==ip:172.31.19.80"
-  size: XXS
+  size: XS
   env_file: []
