@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('step1') {
       steps {
-        sh 'yum install docker'
+        echo 'hello world'
       }
     }
   }
